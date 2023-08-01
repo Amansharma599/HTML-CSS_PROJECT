@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Rose', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
+
+.logo-image img{
+    cursor: pointer;
+    height: 45px;
+
+    
+}
+
+.navbar{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 60px 60px;
+    margin-top: 10px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    color: #ffff00;
+    gap: 55px;
+    font-weight: 900px;
+    line-height: 20px;
+    align-items: center;
+   }
+
+   .list li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.order-buttons button{
+    background-color: rgb(186, 65, 65);
+    color: #ffffff;
+    padding: 6px 20px;
+    font-size: 20px;
+    font-style: normal;
+    border: 1px solid #0a0a0a;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 900px;
+    width: fit-content;
+   
+}
+
+.order-buttons button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000000 ;
+}
+
+.hero-section1{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.center-division-heading1 {
+    font-size: 75px;
+    color: #ffff00;
+    margin-bottom: 10px;
+    font-weight: 700;
+    justify-content: center;
+    
+}
+
+
+
+.big-button{
+    display: flex;
+    justify-content: center;
+}
+
+.center-button {
+    display: flex;
+    background-color: rgb(186, 65, 65);
+    color: #ffffff;
+    padding: 5px 30px;
+    font-size: 27px;
+    font-style: normal;
+    border: 1px solid #0a0a0a;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .center-button:hover{
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000000 ;
+
+   }
+
+
+
+.Scroll-Logo{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+    
+
+}
+
+
+
+
+
+
+
+
